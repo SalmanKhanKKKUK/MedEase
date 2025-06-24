@@ -1,0 +1,89 @@
+.testimonal {
+    width: 100%;
+    padding: 20px 10%;
+    margin-top: 30px;
+}
+
+.testimonal__text h1 {
+    text-align: left;
+    font-size: 30px;
+    color: #111111;
+}
+
+.testimonal__text span {
+    font-size: 30px;
+}
+
+.testimonal__section {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+/* -------------------------Female-Section-------------- */
+.female__section {
+    width: 100%;
+}
+
+.female__info {
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.female__info img {
+    width: 200px;
+    background-color: #2F80ED;
+    border-radius: 5px;
+}
+
+.female__desc{
+    max-width: 400px;
+}
+.female__desc p{
+    font-size: 14px;
+    color: #111111;
+}
+
+.female__desc h3{
+    color: #2F80ED;
+}
+.female__desc h4{
+    font-size: 14px;
+}
+/* -------------------------male-Section-------------- */
+.male__section {
+    width: 100%;
+}
+
+.male__info {
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.male__info img {
+    width: 200px;
+    background-color: #2F80ED;
+    border-radius: 5px;
+}
+
+.male__desc{
+    max-width: 400px;
+}
+.male__desc p{
+    font-size: 14px;
+    color: #111111;
+}
+
+.male__desc h3{
+    color: #2F80ED;
+}
+.male__desc h4{
+    font-size: 14px;
+}

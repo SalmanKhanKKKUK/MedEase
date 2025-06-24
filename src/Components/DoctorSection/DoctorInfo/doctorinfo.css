@@ -1,0 +1,109 @@
+.doctorinfo {
+    width: 100%;
+    height: auto;
+}
+
+.doctorsection {
+    padding: 10px 10%;
+    max-width: 100%;
+}
+
+/* --------------Title-Section------------ */
+.main__title {
+    max-width: 100%;
+}
+
+.title__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: black;
+}
+
+.title h1 span {
+    color: #2F80ED;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title__btn h3 {
+    color: #2F80ED;
+}
+
+/* ----------------------Card-Section---------------- */
+
+.card__title {
+    width: 100%;
+}
+
+.card__section {
+    max-width: 100%;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+
+}
+
+.card {
+    background-color: #F7F7F7;
+    padding: 30px 10px;
+    border-radius: 5px;
+
+}
+
+.card .card__icon {
+    background-color: #E6E6E6;
+    border-radius: 50%;
+    width: 30px;
+    color: #2F80ED;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card .card__info h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #111111;
+}
+
+.card .card__info p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #808080;
+}
+
+.card__btn {
+    display: flex;
+}
+
+.card__btn h1,
+span {
+    font-size: 16px;
+    color: #2F80ED;
+}
+
+/* ----------------------Button-Section---------------- */
+.button__title {
+    width: 100%;
+}
+
+.button__section {
+    max-width: 100%;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    /* text-align: center; */
+}
+
+.btns img {
+    width: 40px;
+}
