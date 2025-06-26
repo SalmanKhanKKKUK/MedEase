@@ -1,11 +1,11 @@
-.main__footer{
+.main__footer {
     width: 100%;
     padding: 10px 10%;
 }
 
-.footer__section{
+.footer__section {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     background-color: black;
     padding: 40px 40px;
     height: 40vh;
@@ -13,21 +13,21 @@
 
 /* ------------------Company-Footer------------ */
 
-.company__footer{
+.company__footer {
     max-width: 350px;
 }
 
-.company__footer img{
+.company__footer img {
     width: 100px;
     margin-bottom: 5px;
 }
 
-.company__footer p{
+.company__footer p {
     font-size: 12px;
     margin-bottom: 10px;
 }
 
-.company__footer .footer__icon{
+.company__footer .footer__icon {
     display: flex;
     column-gap: 10px;
     /* background-color: #2F80ED; */
@@ -35,8 +35,7 @@
 
 .company__footer .footer__icon .one,
 .company__footer .footer__icon .two,
-.company__footer .footer__icon .three
-{
+.company__footer .footer__icon .three {
     width: 25px;
     height: 25px;
     text-align: center;
@@ -48,29 +47,105 @@
 
 /* ------------------Link-Footer-------------------- */
 
-.link__footer{
+.link__footer {
     width: 100%;
 }
-.link__desc{
+
+.link__desc {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 5em;
     max-width: 600px;
 }
 
-.link__service{
+.link__service {
     font-size: 10px;
     cursor: pointer;
 }
 
-.link__service h1{
+.link__service h1 {
     font-size: 14px;
     margin-bottom: 10px;
     color: white;
 }
 
-.link__service h3{
+.link__service h3 {
     margin-bottom: 2px;
     color: #cccc;
     font-size: 12px;
+}
+
+/* --------------Responsive---------------- */
+
+@media (max-width: 1024px) {
+    .footer__section {
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 30px 20px;
+        row-gap: 30px;
+    }
+
+    .company__footer {
+        max-width: 100%;
+    }
+
+    .company__footer p {
+        font-size: 12px;
+    }
+
+    .company__footer .footer__icon {
+        column-gap: 8px;
+    }
+
+    .link__desc {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+    .link__service h1 {
+        font-size: 13px;
+    }
+
+    .link__service h3 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .main__footer {
+        padding: 10px 5%;
+    }
+
+    .footer__section {
+        padding: 20px 10px;
+    }
+
+    .company__footer img {
+        width: 80px;
+    }
+
+    .company__footer p {
+        font-size: 11px;
+    }
+
+    .company__footer .footer__icon .one,
+    .company__footer .footer__icon .two,
+    .company__footer .footer__icon .three {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .link__desc {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .link__service h1 {
+        font-size: 12px;
+    }
+
+    .link__service h3 {
+        font-size: 10px;
+    }
 }

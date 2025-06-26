@@ -1,175 +1,360 @@
 .herosection {
-    width: 100%;
-    height: 100vh;
-    padding: 30px 10%;
+  width: 100%;
+  height: 100vh;
+  padding: 30px 10%;
 }
 
 .main__hero {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10em;
-    justify-content: center;
-    /* align-items: center; */
-    margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10em;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 150px;
 }
 
 /* ----------------------Content--Component------------- */
 .main__content {
-    width: 100%;
+  width: 100%;
 }
 
 .content {
-    max-width: 600px;
+  max-width: 600px;
 
 }
 
 .badge__desc {
-    display: flex;
-    background-color: #F2F7FF;
-    border-radius: 50px;
-    padding-left: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  background-color: #F2F7FF;
+  border-radius: 50px;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
 
 .badge__desc i {
-    font-size: 16px;
-    color: #2F80ED;
+  font-size: 16px;
+  color: #2F80ED;
 }
 
 .badge__desc p {
-    font-size: 16px;
-    color: #2F80ED;
-    margin-left: 5px;
+  font-size: 16px;
+  color: #2F80ED;
+  margin-left: 5px;
 }
 
 .badge__heading {
-    width: 500px;
-    margin-bottom: 30px;
+  width: 500px;
+  margin-bottom: 30px;
 }
 
 .badge__heading h1 {
-    font-size: 50px;
-    color: black;
+  font-size: 50px;
+  color: black;
 }
 
 .badge__heading h1 span {
-    color: #2F80ED;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+  color: #2F80ED;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
 }
 
 .badge__heading p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .content__btn {
-    display: flex;
-    gap: 10px;
-    cursor: pointer;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
 }
 
 
 .content__btn .btn button {
-    background-color: #2F80ED;
-    padding: 15px 30px;
-    border-radius: 50px;
-    color: #F2F7FF;
+  background-color: #2F80ED;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #F2F7FF;
 }
 
 .content__btn .badge__btn button {
-    background-color: #2F80ED;
-    padding: 15px 30px;
-    border-radius: 50px;
-    color: #F2F7FF;
+  background-color: #2F80ED;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #F2F7FF;
 }
 
 /* -----------------------HeroSection--Component--------------- */
 
 .hero {
-    width: 100%;
+  width: 100%;
 }
 
 .hero__section {
-    max-width: 100%;
-    padding: 10px 5px;
+  max-width: 100%;
+  padding: 10px 5px;
 }
 
 .hero__img img {
-    width: 350px;
+  width: 350px;
 }
 
 .hero__value {
-    width: 20%;
-    display: flex;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 10px 20px;
-    position: absolute;
-    top: 160px;
-    right: 90px;
+  width: 20%;
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 160px;
+  right: 90px;
 }
 
 .hero__value h1 {
-    color: #2F80ED;
-    font-size: 30px;
+  color: #2F80ED;
+  font-size: 30px;
 }
 
 .hero__value p {
-    color: gray;
-    text-align: center;
+  color: gray;
+  text-align: center;
 }
 
 .hero_patients_imgs {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
 }
 
 .hero__data {
-    width: 250px;
-    background-color: #fff;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    padding: 10px 20px;
-    border-radius: 10px;
+  width: 250px;
+  background-color: #fff;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .hero__data p {
-    color: gray;
+  color: gray;
 }
 
 .hero__det {
-    display: flex;
+  display: flex;
 }
 
 
 .hero__det h1 {
-    color: #2F80ED;
-    padding-left: 30px;
+  color: #2F80ED;
+  padding-left: 30px;
 }
 
 .hero__det img {
-    position: relative;
-    left: 5px;
+  position: relative;
+  left: 5px;
 }
 
 
 .image-stack {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .stacked-image {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
-    object-fit: cover;
-    margin-left: -20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  margin-left: -20px;
 }
 
 .stacked-image:first-child {
-    margin-right: 0;
+  margin-right: 0;
+}
+
+
+/* --------------Responsive------------ */
+@media (max-width: 1024px) {
+  .herosection {
+    padding: 25px 8%;
+    height: auto;
+  }
+
+  .main__hero {
+    grid-template-columns: 1fr;
+    grid-gap: 6em;
+    margin-top: 80px;
+  }
+
+  .badge__heading h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .badge__heading p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .badge__heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .badge__desc {
+    justify-content: center;
+  }
+
+  .content__btn {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero__img img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .hero__value {
+    width: 60%;
+    top: auto;
+    right: auto;
+    margin: 20px auto;
+    justify-content: center;
+    position: static;
+  }
+
+  .hero__data {
+    width: 80%;
+    position: static;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .hero__det {
+    justify-content: center;
+  }
+
+  .hero__det h1 {
+    font-size: 26px;
+    padding-left: 15px;
+  }
+
+  .stacked-image {
+    height: 36px;
+    width: 36px;
+    margin-left: -18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .herosection {
+    padding: 20px 5%;
+    height: auto;
+  }
+
+  .main__hero {
+    grid-template-columns: 1fr;
+    grid-gap: 4em;
+    margin-top: 50px;
+  }
+
+  .badge__heading h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .badge__heading p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .badge__heading {
+    width: 100%;
+  }
+
+  .badge__desc {
+    justify-content: center;
+  }
+
+  .content__btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content__btn .btn button,
+  .content__btn .badge__btn button {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  .hero__img img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .hero__value {
+    position: static;
+    margin: 20px auto;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .hero__data {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .hero__det {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero__det h1 {
+    padding-left: 10px;
+    font-size: 24px;
+  }
+
+  .stacked-image {
+    height: 35px;
+    width: 35px;
+    margin-left: -15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .badge__heading h1 {
+    font-size: 26px;
+  }
+
+  .badge__heading p {
+    font-size: 14px;
+  }
+
+  .hero__value h1 {
+    font-size: 24px;
+  }
+
+  .hero__det h1 {
+    font-size: 20px;
+  }
+
+  .stacked-image {
+    height: 30px;
+    width: 30px;
+  }
+
+  .content__btn .btn button,
+  .content__btn .badge__btn button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
 }

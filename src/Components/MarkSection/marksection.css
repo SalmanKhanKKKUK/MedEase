@@ -54,3 +54,54 @@
     color: #fff;
     margin-left: 10px;
 }
+
+/* ------------Responsive---------------- */
+
+@media (max-width: 1024px) {
+    .mark h1 {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+
+    .mark__btn {
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    .mark__btn .book__btn,
+    .mark__btn .button__btn {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .mark {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .mark h1 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .mark__btn {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .mark__btn .book__btn,
+    .mark__btn .button__btn {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .mark__btn .button__btn i {
+        margin-left: 5px;
+    }
+}
